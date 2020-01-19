@@ -1,12 +1,16 @@
 extends partial/layout
 
-block container
-    include mixins/post
-    +postList()
+block site_title
+    !=  "归档 · " + config.title
 
-block pagination
-    include mixins/paginator
-    +home()
+block description
+    - var desc = '归档页面 - ' + config.title;
+    meta(name="description", content=desc)
 
-block copyright
-    include partial/copyright
+block content
+    .autopagerize_page_element: .content
+      .archive.animated.fadeInDown
+        ul.list-with-title
+          include mixins
+          +postList()
+          +make_pager(__('prev'), __('next'))

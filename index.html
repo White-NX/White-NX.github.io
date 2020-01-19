@@ -1,12 +1,9 @@
 extends partial/layout
-
-block container
-    include mixins/post
-    +posts()
-
-block pagination
-    include mixins/paginator
-    +home()
-
-block copyright
-    include partial/copyright
+block content
+	.autopagerize_page_element: .content
+		- page.posts.each(function (item) {
+			include mixins
+			+make_post(item, false)
+		- })
+		include mixins
+		+make_pager(__('prev'), __('next'))

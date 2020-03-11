@@ -1,546 +1,431 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN" class="loading">
 <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>科技周报[第四期] - WhiteNX&#39;s Blog</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="WhiteNX&#39;s blog.,"> 
+    <meta name="description" content="WhiteNX的个人站,苹果曾想在印度生产iPhone 11，最终没成功网易科技讯 3月4日消息，据国外媒体报道，《华尔街日报》当地时间周一发布的一份最新报告详细说明了苹果在供应链上对中国的依赖情况，并称这种情况在不久的将,"> 
+    <meta name="author" content="WhiteNX"> 
+    <link rel="alternative" href="atom.xml" title="WhiteNX&#39;s Blog" type="application/atom+xml"> 
+    <link rel="icon" href="/img/favicon.png"> 
+    <link href="https://fonts.loli.net/css?family=Roboto+Mono|Rubik&display=swap" rel="stylesheet">
     
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1429596_nzgqgvnmkjb.css">
 
     
+<link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.7.2/animate.min.css">
 
     
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
 
+    
+<link rel="stylesheet" href="//cdn.bootcss.com/codemirror/5.48.4/codemirror.min.css">
 
+    
+<link rel="stylesheet" href="//cdn.bootcss.com/codemirror/5.48.4/theme/dracula.css">
 
-    if theme.show_ad_post
-      script(async='', src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js')
-      script.
-        (adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-7713221751182616", enable_page_level_ads: true});
-    <meta charset="utf-8">
     
-    
-    
-    
-    <title>科技周报[第四期] | WhiteNX&#39;s Blog</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
-    <meta name="theme-color" content="#3F51B5">
-    
-    
-    <meta name="keywords" content="">
-    <meta name="description" content="苹果曾想在印度生产iPhone 11，最终没成功                                                                                             b94e5f4ab78841b7142b86dc2e363224.jpg              网易科技讯 3月4日消息，据国外媒体报道，《华尔街日报》当地时间周">
-<meta property="og:type" content="article">
-<meta property="og:title" content="科技周报[第四期]">
-<meta property="og:url" content="https://whitenx.top/2020/03/04/%E7%A7%91%E6%8A%80%E5%91%A8%E6%8A%A5-%E7%AC%AC%E5%9B%9B%E6%9C%9F/index.html">
-<meta property="og:site_name" content="WhiteNX&#39;s Blog">
-<meta property="og:description" content="苹果曾想在印度生产iPhone 11，最终没成功                                                                                             b94e5f4ab78841b7142b86dc2e363224.jpg              网易科技讯 3月4日消息，据国外媒体报道，《华尔街日报》当地时间周">
-<meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://i.loli.net/2020/03/04/nAcJshIo54SX2fH.jpg">
-<meta property="og:image" content="https://i.loli.net/2020/03/04/bawLkCimuDVzTlr.jpg">
-<meta property="og:image" content="https://i.loli.net/2020/03/04/NX1j7mePC3ohFRy.jpg">
-<meta property="og:image" content="https://i.loli.net/2020/03/04/hdnItQNZOBvHFqy.jpg">
-<meta property="article:published_time" content="2020-03-04T07:18:57.000Z">
-<meta property="article:modified_time" content="2020-03-04T07:27:30.243Z">
-<meta property="article:author" content="WhiteNX">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://i.loli.net/2020/03/04/nAcJshIo54SX2fH.jpg">
-    
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="stylesheet" href="//unpkg.com/hexo-theme-material-indigo@latest/css/style.css">
-    <script>window.lazyScripts=[]</script>
+<link rel="stylesheet" href="/css/obsidian.css">
 
-    <!-- custom head -->
     
+<link rel="stylesheet" href="/css/ball-atom.min.css">
 
+    <script data-ad-client="ca-pub-7713221751182616" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <meta name="generator" content="Hexo 4.2.0"></head>
 
-<body>
-    <div id="loading" class="active"></div>
 
-    <aside id="menu" class="hide" >
-  <div class="inner flex-row-vertical">
-    <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menu-off">
-        <i class="icon icon-lg icon-close"></i>
-    </a>
-    <div class="brand-wrap" style="background-image:url(/img/brand.jpg)">
-      <div class="brand">
-        <a href="/null" class="avatar waves-effect waves-circle waves-light">
-          <img src="https://i.loli.net/2020/02/15/AoC8vztE5YXI7xK.jpg">
-        </a>
-        <hgroup class="introduce">
-          <h5 class="nickname">WhiteNX</h5>
-          <a href="mailto:2454053557@qq.com" title="2454053557@qq.com" class="mail">2454053557@qq.com</a>
-        </hgroup>
-      </div>
-    </div>
-    <div class="scroll-wrap flex-col">
-      <ul class="nav">
-        
-            <li class="waves-block waves-effect">
-              <a href="/"  >
-                <i class="icon icon-lg icon-home"></i>
-                主页
-              </a>
-            </li>
-        
-            <li class="waves-block waves-effect">
-              <a href="/archives"  >
-                <i class="icon icon-lg icon-archives"></i>
-                Archives
-              </a>
-            </li>
-        
-            <li class="waves-block waves-effect">
-              <a href="https://github.com/White-NX" target="_blank" >
-                <i class="icon icon-lg icon-github"></i>
-                Github
-              </a>
-            </li>
-        
-            <li class="waves-block waves-effect">
-              <a href="/2020/02/10/%E5%8F%8B%E9%93%BE/"  >
-                <i class="icon icon-lg icon-link"></i>
-                友链
-              </a>
-            </li>
-        
-            <li class="waves-block waves-effect">
-              <a href="/2020/02/16/996icu/"  >
-                <i class="icon icon-lg icon-tags"></i>
-                996icu
-              </a>
-            </li>
-        
-      </ul>
-    </div>
-  </div>
-</aside>
-
-    <main id="main">
-        <header class="top-header" id="header">
-    <div class="flex-row">
-        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
-          <i class="icon icon-lg icon-navicon"></i>
-        </a>
-        <div class="flex-col header-title ellipsis">科技周报[第四期]</div>
-        
-        <div class="search-wrap" id="search-wrap">
-            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
-                <i class="icon icon-lg icon-chevron-left"></i>
-            </a>
-            <input type="text" id="key" class="search-input" autocomplete="off" placeholder="输入关键字">
-            <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="search">
-                <i class="icon icon-lg icon-search"></i>
-            </a>
+<body class="loading">
+    <div class="loader">
+        <div class="la-ball-atom la-2x">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
-        
-        
-        <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="menuShare">
-            <i class="icon icon-lg icon-share-alt"></i>
-        </a>
-        
     </div>
-</header>
-<header class="content-header post-header">
-
-    <div class="container fade-scale">
-        <h1 class="title">科技周报[第四期]</h1>
-        <h5 class="subtitle">
-            
-                <time datetime="2020-03-04T07:18:57.000Z" itemprop="datePublished" class="page-time">
-  2020-03-04
-</time>
-
-
-            
-        </h5>
-    </div>
-
-    
-
-
-</header>
-
-
-<div class="container body-wrap">
-    
-    <aside class="post-widget">
-        <nav class="post-toc-wrap post-toc-shrink" id="post-toc">
-            <h4>TOC</h4>
-            <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#苹果曾想在印度生产iPhone-11，最终没成功"><span class="post-toc-number">1.</span> <span class="post-toc-text">苹果曾想在印度生产iPhone 11，最终没成功</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#苏宁拼购：2月份投放1亿瓶消毒液-日均售20万只口罩"><span class="post-toc-number">2.</span> <span class="post-toc-text">苏宁拼购：2月份投放1亿瓶消毒液 日均售20万只口罩</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#华为与俄罗斯最大银行合作-为当地企业提供云服务"><span class="post-toc-number">3.</span> <span class="post-toc-text">华为与俄罗斯最大银行合作 为当地企业提供云服务</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#美联储意外降息美股仍大跌，科技五巨头集体下挫"><span class="post-toc-number">4.</span> <span class="post-toc-text">美联储意外降息美股仍大跌，科技五巨头集体下挫</span></a></li></ol>
-        </nav>
-    </aside>
-
-
-<article id="post-科技周报-第四期"
-  class="post-article article-type-post fade" itemprop="blogPost">
-
-    <div class="post-card">
-        <h1 class="post-card-title">科技周报[第四期]</h1>
-        <div class="post-meta">
-            <time class="post-time" title="2020-03-04 15:18:57" datetime="2020-03-04T07:18:57.000Z"  itemprop="datePublished">2020-03-04</time>
-
-            
-
-
-            
-<span id="busuanzi_container_page_pv" title="文章总阅读量" style='display:none'>
-    <i class="icon icon-eye icon-pr"></i><span id="busuanzi_value_page_pv"></span>
-</span>
-
-
-        </div>
-        <div class="post-content" id="post-content" itemprop="postContent">
-            <h2 id="苹果曾想在印度生产iPhone-11，最终没成功"><a href="#苹果曾想在印度生产iPhone-11，最终没成功" class="headerlink" title="苹果曾想在印度生产iPhone 11，最终没成功"></a>苹果曾想在印度生产iPhone 11，最终没成功</h2><figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://i.loli.net/2020/03/04/nAcJshIo54SX2fH.jpg" alt="b94e5f4ab78841b7142b86dc2e363224.jpg" title="">
+    <span id="config-title" style="display:none">WhiteNX&#39;s Blog</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div class="scrollbar gradient-bg-rev"></div>
+<div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <div class="navigation animated fadeIn fast delay-1s">
+        <img id="home-icon" class="icon-home" src="/img/favicon.png" alt="" data-url="https://whitenx.top">
+        <div id="play-icon" title="Play/Pause" class="iconfont icon-play"></div>
+        <h3 class="subtitle">科技周报[第四期]</h3>
+        <div class="social">
+            <!--        <div class="like-icon">-->
+            <!--            <a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
+            <!--        </div>-->
+            <div>
+                <div class="share">
+                    
+                        <a href="javascript:;" class="iconfont icon-share1"></a>
+                        <div class="share-component-cc" data-disabled="facebook,douban,linkedin,diandian,tencent,google"></div>
+                    
                 </div>
-                <div class="image-caption">b94e5f4ab78841b7142b86dc2e363224.jpg</div>
-            </figure>
-<p>网易科技讯 3月4日消息，据国外媒体报道，《华尔街日报》当地时间周一发布的一份最新报告详细说明了苹果在供应链上对中国的依赖情况，并称这种情况在不久的将来不太可能会改变。根据这份报告，苹果部分高管建议将至少一种产品的制造转移到越南，但这一想法被苹果高级管理层“拒绝”。报告解释称，苹果的运营高管 “早在2015年”就建议，该公司应该“将至少一种产品的组装转移到越南”。提出这一建议的这些高管认为，这样做将允许苹果在中国以外启动“培训工人的多年期进程，并且建立新的组件供应商集群”。但据称，苹果高层管理人员拒绝了这一建议想法，原因好像是这种转变“太具挑战性，无法进行”。与此同时，苹果正在印度生产部分老版本的iPhone。《华尔街日报》的这份报告表示，苹果还有一个关于在印度制造iPhone 11的“计划”。这标志着苹果战略中的一个重大转变，因为如果iPhone 11在印度生产，将表明这款产品是苹果在中国以外制造的第一款新型号iPhone。但是，当真正为iPhone 11在印度建立生产基地的时候，苹果却停止了这一努力。《华尔街日报》的这份报告表示，“一位知情人士说，这家科技巨头在为该产品建立一条单一生产线之前，停止了这项努力。为这样的生产，印度没有准备好熟练的劳动力，也没有苹果所期望的强大基础设施。苹果因此只得选择在中国制造iPhone 11。”众所周知，苹果产品的部件来自全球许多国家和地区，但主要在中国组装。目前，苹果在中国和韩国等国的供应商和制造业合作伙伴，受到新型冠状病毒肺炎疫情的冲击。但是苹果强调，iPhone是“世界各地制造的”，而不仅仅是在中国。</p>
-<h2 id="苏宁拼购：2月份投放1亿瓶消毒液-日均售20万只口罩"><a href="#苏宁拼购：2月份投放1亿瓶消毒液-日均售20万只口罩" class="headerlink" title="苏宁拼购：2月份投放1亿瓶消毒液 日均售20万只口罩"></a>苏宁拼购：2月份投放1亿瓶消毒液 日均售20万只口罩</h2><figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://i.loli.net/2020/03/04/bawLkCimuDVzTlr.jpg" alt="821c0f4465b220c4a83523a1922e7be6.jpg" title="">
-                </div>
-                <div class="image-caption">821c0f4465b220c4a83523a1922e7be6.jpg</div>
-            </figure>
-<p>网易科技讯 3月4日消息，今日苏宁拼购表示，疫情期间苏宁拼购从用户、商户两头着手，联动苏宁各产业（物流、金融）优势，扶助中小商户疏通物流和资金上的困难，期间同比订单量增长866%，GMV增长2061%。据了解，苏宁拼购于2月13日公布了助农18条，开通助农绿色绿色通道，加快审批速度，派专人手把手教农户开设网店，苏宁物流、天天快递保障物流畅通。累计帮助600多户农户销售了逾千万斤农产品。二月二赶大集，苏宁拼购单天完成180场，帮助成都、桂林等30多个地区的400多个农户共计卖出15万斤四川丑柑、5.7万斤冰糖橙、34万枚猕猴桃。总计直播带货23万单。累计观看人次1.4亿。2月中旬，苏宁拼购与苏宁金融联动，启动“白名单”机制，贷款策略“一厂一议”，确保复工资金需求，保证资金链健康运转，及时为消费者生产医疗卫生用品。整个2月份，苏宁拼购已为214家商户提供贷款，另外还有40多家在授信中。累计贷款金额逾2000万。苏宁金融相关负责人表示：“白名单机制启动后，拼购中小商户最高可申请20万元贷款，流程最快一天走完。”苏宁物流与天天快递为发货难的商户提供对点帮扶，累计帮助600多家商户解决了物流问题。苏宁拼购公布数据称，整个2月份，苏宁拼购向市场投放了1亿瓶医用酒精消毒液、50万副护目镜、日均售出20万只口罩。对此，苏宁拼购相关负责人表示：“苏宁拼购保证防疫用品不涨价、能发货。对于趁机涨价、不能发货的商家，苏宁拼购24小时监测，发现一家处理一家。”</p>
-<h2 id="华为与俄罗斯最大银行合作-为当地企业提供云服务"><a href="#华为与俄罗斯最大银行合作-为当地企业提供云服务" class="headerlink" title="华为与俄罗斯最大银行合作 为当地企业提供云服务"></a>华为与俄罗斯最大银行合作 为当地企业提供云服务</h2><figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://i.loli.net/2020/03/04/NX1j7mePC3ohFRy.jpg" alt="5cdecd0b83e8944735ef758df079654e.jpeg" title="">
-                </div>
-                <div class="image-caption">5cdecd0b83e8944735ef758df079654e.jpeg</div>
-            </figure>
-<p>网易科技讯 3月4日消息，据国外媒体报道，俄罗斯最大银行Sberbank和中国的华为公司周二表示，他们已结成战略伙伴关系，为俄罗斯企业提供云计算服务。此举将让Sberbank的业务范围扩大到该国的数字经济领域。Sberbank是俄罗斯国有银行，其业务一直在稳步地从传统银行业向网络服务业转变，它投资了俄罗斯互联网巨头Yandex和Mail，其云解决方案SberCloud希望向大型企业、中小企业和初创企业等提供服务。现在该云解决方案的客户将能够获得37项新的云服务，这些服务都将完全集成在一个系统中，在俄罗斯市场这也将是首个这种水平的服务。去年，Sberbank首席执行官杰曼·格雷夫（German Gref）在接受路透社采访时提出了致力数字业务的计划。与全球最大电信设备制造商华为建立合作关系，进一步证明Sberbank在致力于数字业务发展的雄心。华为俄罗斯业务总经理王伟（Wang Wei，译音）表示，华为将持续在俄罗斯运营，与Sberbank的合作能够大大改善俄罗斯的数字业务前景。他说，“这一合作关系，真正代表了俄罗斯云服务市场的一个里程碑。”</p>
-<h2 id="美联储意外降息美股仍大跌，科技五巨头集体下挫"><a href="#美联储意外降息美股仍大跌，科技五巨头集体下挫" class="headerlink" title="美联储意外降息美股仍大跌，科技五巨头集体下挫"></a>美联储意外降息美股仍大跌，科技五巨头集体下挫</h2><figure class="image-bubble">
-                <div class="img-lightbox">
-                    <div class="overlay"></div>
-                    <img src="https://i.loli.net/2020/03/04/hdnItQNZOBvHFqy.jpg" alt="c0923a93d5009b1453c2670967847c59.jpeg" title="">
-                </div>
-                <div class="image-caption">c0923a93d5009b1453c2670967847c59.jpeg</div>
-            </figure>
-<p>网易科技讯 3月4日消息，据外媒报道，美国时间周二，美联储意外宣布降息0.5个百分点，令美国股市更加担心新冠肺炎疫情对经济的影响。在美联储自2008年金融危机以来首次紧急降息后，美国三大股指收盘均下跌近3%。美国时间周二，道琼斯工业平均指数下跌785.91点，收于25,917.41点，跌幅2.94%；标准普尔500指数下跌86.86点，收于3,003.37点，跌幅2.81%。纳斯达克综合指数下跌268.08点，收于8,684.09点，跌幅为2.99%。在美国股市周二交易中，苹果股价收于289.32美元，下跌3.18%；谷歌母公司Alphabet股价收于1,341.39美元，下跌了3.44%；亚马逊收于1,908.99美元，下跌了2.3%；微软收于164.51美元，下跌了4.79%；Facebook收于185.89美元，下跌了5.37%；奈飞（Netflix）收于368.77美元，下跌了3.22%；特斯拉收于745.51美元，逆市上涨了0.25%。美国芯片龙头股方面，英特尔收于55.97美元，下跌了3.8%；高通（Qualcomm）收于78.56美元，下跌了2.48%；博通收于274.25美元，下跌了3.76%；德州仪器收于113.81美元，下跌了4.34%；美光科技收于51.80美元，下跌了5.11%；英伟达收于265.89美元，下跌了3.81%；AMD收于46.75美元，下跌了1.5%。此次降息凸显了美联储对新冠病毒的担忧，目前这种病毒已经扩散至世界各地。此次降息时间比美联储预定的政策会议提前了两周，而交易员已完全消化了这次政策会议降息50个基点的预期。在美国股市周二交易中，美国三大股市最初均下跌1%左右，但随后进一步下滑，因为交易员担心向金融市场注入更多资金是否能解决核心问题——随着员工和消费者呆在家里，商业活动将大幅减少。投行Kenny’s Commentary LLC和Strategic Board Solutions LLC的创始人彼得·肯尼（Peter Kenny）指出：“美联储此次降息凸显了全球经济面临问题的严重性。”他说：“正常情况下，市场会欢迎降息，他们一直希望美联储采取这一举动。现在我们如愿以偿，但问题是，下一步的措施是什么?”随着紧张不安的投资者将资金撤出股市，美国10年期国债收益率首次跌破1%。美国时间周二，标准普尔500金融类股指数重挫3.7%，反映出银行在低利率环境下难以盈利。上周五，美国股市出现了10多年来最大的单周跌幅，原因是中国境外新冠肺炎确诊病例不断增加，引发了人们对全球经济衰退的担忧。周二早些时候，七国集团财长和央行行长承诺采取适当行动支持各自国家的经济。芝加哥市场研究公司Bianco创始人兼总裁吉姆·比安科（Jim Bianco）在谈到美联储降息时表示：“市场确实担心情况会变得更糟，这时候没有必要坐等这些担忧成真。”与最近交易日一样，美国股市周二的成交量很大，达到147亿股，而过去20天的日均成交量为98亿股。</p>
-
-        </div>
-
-        <blockquote class="post-copyright">
-    
-    <div class="content">
-        
-<span class="post-time">
-    最后更新时间：<time datetime="2020-03-04T07:27:30.243Z" itemprop="dateUpdated">2020-03-04 15:27:30</time>
-</span><br>
-
-
-        
-        呀！你好！
-        
-    </div>
-    
-    <footer>
-        <a href="https://whitenx.top">
-            <img src="https://i.loli.net/2020/02/15/AoC8vztE5YXI7xK.jpg" alt="WhiteNX">
-            WhiteNX
-        </a>
-    </footer>
-</blockquote>
-
-        
-<div class="page-reward">
-    <a id="rewardBtn" href="javascript:;" class="page-reward-btn waves-effect waves-circle waves-light">赏</a>
-</div>
-
-
-
-        <div class="post-footer">
-            
-
-            
-<div class="page-share-wrap">
-    
-
-<div class="page-share" id="pageShare">
-    <ul class="reset share-icons">
-      <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://whitenx.top/2020/03/04/%E7%A7%91%E6%8A%80%E5%91%A8%E6%8A%A5-%E7%AC%AC%E5%9B%9B%E6%9C%9F/&title=《科技周报[第四期]》 — WhiteNX's Blog&pic=https://i.loli.net/2020/02/15/AoC8vztE5YXI7xK.jpg" data-title="微博">
-          <i class="icon icon-weibo"></i>
-        </a>
-      </li>
-      <li>
-        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
-          <i class="icon icon-weixin"></i>
-        </a>
-      </li>
-      <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://whitenx.top/2020/03/04/%E7%A7%91%E6%8A%80%E5%91%A8%E6%8A%A5-%E7%AC%AC%E5%9B%9B%E6%9C%9F/&title=《科技周报[第四期]》 — WhiteNX's Blog&source=WhiteNX的个人站" data-title=" QQ">
-          <i class="icon icon-qq"></i>
-        </a>
-      </li>
-      <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://whitenx.top/2020/03/04/%E7%A7%91%E6%8A%80%E5%91%A8%E6%8A%A5-%E7%AC%AC%E5%9B%9B%E6%9C%9F/" data-title=" Facebook">
-          <i class="icon icon-facebook"></i>
-        </a>
-      </li>
-      <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《科技周报[第四期]》 — WhiteNX's Blog&url=https://whitenx.top/2020/03/04/%E7%A7%91%E6%8A%80%E5%91%A8%E6%8A%A5-%E7%AC%AC%E5%9B%9B%E6%9C%9F/&via=https://whitenx.top" data-title=" Twitter">
-          <i class="icon icon-twitter"></i>
-        </a>
-      </li>
-      <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://whitenx.top/2020/03/04/%E7%A7%91%E6%8A%80%E5%91%A8%E6%8A%A5-%E7%AC%AC%E5%9B%9B%E6%9C%9F/" data-title=" Google+">
-          <i class="icon icon-google-plus"></i>
-        </a>
-      </li>
-    </ul>
- </div>
-
-
-
-    <a href="javascript:;" id="shareFab" class="page-share-fab waves-effect waves-circle">
-        <i class="icon icon-share-alt icon-lg"></i>
-    </a>
-</div>
-
-
-
-        </div>
-    </div>
-
-    
-<nav class="post-nav flex-row flex-justify-between">
-  
-    <div class="waves-block waves-effect prev">
-      <a href="/2020/03/09/%E7%A7%91%E6%8A%80%E5%91%A8%E6%8A%A5-%E7%AC%AC%E4%BA%94%E6%9C%9F/" id="post-prev" class="post-nav-link">
-        <div class="tips"><i class="icon icon-angle-left icon-lg icon-pr"></i> Prev</div>
-        <h4 class="title">科技周报[第五期]</h4>
-      </a>
-    </div>
-  
-
-  
-    <div class="waves-block waves-effect next">
-      <a href="/2020/02/25/%E7%A7%91%E6%8A%80%E5%91%A8%E6%8A%A5-%E7%AC%AC%E4%B8%89%E6%9C%9F/" id="post-next" class="post-nav-link">
-        <div class="tips">Next <i class="icon icon-angle-right icon-lg icon-pl"></i></div>
-        <h4 class="title">科技周报-第三期</h4>
-      </a>
-    </div>
-  
-</nav>
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section class="comments" id="comments">
-    <div id="gitalk-container"></div>
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-    <script>
-        var id = location.pathname
-        if (location.pathname.length > 50) {
-          id = location.pathname.replace(/\/\d+\/\d+\/\d+\//, '').replace('/', '').substring(0, 50)
-        }
-        const gitalk = new Gitalk({
-          clientID: '',
-          clientSecret: '',
-          repo: 'gitalk',
-          owner: 'White-NX',
-          admin: ['White-NX'],
-          id: id,      // Ensure uniqueness and length less than 50
-          title: document.title.split('|')[0],
-          distractionFreeMode: false  // Facebook-like distraction free mode
-        })
-
-        gitalk.render('gitalk-container')
-    </script>
-</section>
-
-
-
-
-</article>
-
-<div id="reward" class="page-modal reward-lay">
-    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
-    <h3 class="reward-title">
-        <i class="icon icon-quote-left"></i>
-        暂时关闭~
-        <i class="icon icon-quote-right"></i>
-    </h3>
-    <div class="reward-content">
-        
-        <div class="reward-code">
-            <img id="rewardCode" src="/img/" alt="打赏二维码">
-        </div>
-        
-        <label class="reward-toggle">
-            <input id="rewardToggle" type="checkbox" class="reward-toggle-check"
-                data-wechat="/img/" data-alipay="/img/">
-            <div class="reward-toggle-ctrol">
-                <span class="reward-toggle-item wechat">微信</span>
-                <span class="reward-toggle-label"></span>
-                <span class="reward-toggle-item alipay">支付宝</span>
             </div>
-        </label>
-        
+        </div>
     </div>
 </div>
 
-
-
-</div>
-
-        <footer class="footer">
-    <div class="top">
-        
-<p>
-    <span id="busuanzi_container_site_uv" style='display:none'>
-        站点总访客数：<span id="busuanzi_value_site_uv"></span>
-    </span>
-    <span id="busuanzi_container_site_pv" style='display:none'>
-        站点总访问量：<span id="busuanzi_value_site_pv"></span>
-    </span>
-</p>
-
-
-        <p>
-            
-            <span>博客内容遵循 <a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank">知识共享 署名 - 非商业性 - 相同方式共享 4.0 国际协议 以及 <a href="https://github.com/996icu/996.ICU/blob/master/LICENSE" target="_blank" rel="noopener"><img src="https://whitenx.rthe.net/license-anti-996-blue.svg" alt="996.icu.LICENSE" /> | <a href="https://996.icu" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu" /></a></span>
-        </p>
-    </div>
-    <div class="bottom">
-        <p><span>WhiteNX &copy; 2019 - 2020</span>
-            <span>
+    <div class="section">
+        <div class=article-header-wrapper>
+    <div class="article-header">
+        <div class="article-cover animated fadeIn" style="
+            animation-delay: 600ms;
+            animation-duration: 1.2s;
+            background-image: 
+                radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.65), #100e17),
+                url(/img/cover.jpg);">
+        </div>
+        <div class="else">
+            <p class="animated fadeInDown">
                 
-                Power by <a href="http://hexo.io/" target="_blank">Hexo</a> Theme <a href="https://github.com/yscoder/hexo-theme-indigo" target="_blank">indigo</a>
-            </span>
-        </p>
+                <a href="javascript:;"><b>「 </b>文章<b> 」</b></a>
+                
+                三月 04, 2020
+            </p>
+            <h3 class="post-title animated fadeInDown"><a href="/2020/03/04/%E7%A7%91%E6%8A%80%E5%91%A8%E6%8A%A5-%E7%AC%AC%E5%9B%9B%E6%9C%9F/" title="科技周报[第四期]" class="">科技周报[第四期]</a>
+            </h3>
+            
+            <p class="post-count animated fadeInDown">
+                
+                <span>
+                    <b class="iconfont icon-text2"></b> <i>文章字数</i>
+                    4.1k
+                </span>
+                
+                
+                <span>
+                    <b class="iconfont icon-timer__s"></b> <i>阅读约需</i>
+                    4 mins.
+                </span>
+                
+                
+                
+                <span id="busuanzi_container_page_pv">
+                    <b class="iconfont icon-read"></b> <i>阅读次数</i>
+                    <span id="busuanzi_value_page_pv">0</span>
+                </span>
+                
+            </p>
+            
+            
+        </div>
     </div>
+</div>
+
+<div class="screen-gradient-after">
+    <div class="screen-gradient-content">
+        <div class="screen-gradient-content-inside">
+            <div class="bold-underline-links screen-gradient-sponsor">
+                <p>
+                    <span class="animated fadeIn delay-1s"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="article">
+    <div class='main'>
+        <div class="content markdown animated fadeIn">
+            <h2 id="苹果曾想在印度生产iPhone-11，最终没成功"><a href="#苹果曾想在印度生产iPhone-11，最终没成功" class="headerlink" title="苹果曾想在印度生产iPhone 11，最终没成功"></a>苹果曾想在印度生产iPhone 11，最终没成功</h2><p><img src="https://i.loli.net/2020/03/04/nAcJshIo54SX2fH.jpg" alt="b94e5f4ab78841b7142b86dc2e363224.jpg"><br>网易科技讯 3月4日消息，据国外媒体报道，《华尔街日报》当地时间周一发布的一份最新报告详细说明了苹果在供应链上对中国的依赖情况，并称这种情况在不久的将来不太可能会改变。根据这份报告，苹果部分高管建议将至少一种产品的制造转移到越南，但这一想法被苹果高级管理层“拒绝”。报告解释称，苹果的运营高管 “早在2015年”就建议，该公司应该“将至少一种产品的组装转移到越南”。提出这一建议的这些高管认为，这样做将允许苹果在中国以外启动“培训工人的多年期进程，并且建立新的组件供应商集群”。但据称，苹果高层管理人员拒绝了这一建议想法，原因好像是这种转变“太具挑战性，无法进行”。与此同时，苹果正在印度生产部分老版本的iPhone。《华尔街日报》的这份报告表示，苹果还有一个关于在印度制造iPhone 11的“计划”。这标志着苹果战略中的一个重大转变，因为如果iPhone 11在印度生产，将表明这款产品是苹果在中国以外制造的第一款新型号iPhone。但是，当真正为iPhone 11在印度建立生产基地的时候，苹果却停止了这一努力。《华尔街日报》的这份报告表示，“一位知情人士说，这家科技巨头在为该产品建立一条单一生产线之前，停止了这项努力。为这样的生产，印度没有准备好熟练的劳动力，也没有苹果所期望的强大基础设施。苹果因此只得选择在中国制造iPhone 11。”众所周知，苹果产品的部件来自全球许多国家和地区，但主要在中国组装。目前，苹果在中国和韩国等国的供应商和制造业合作伙伴，受到新型冠状病毒肺炎疫情的冲击。但是苹果强调，iPhone是“世界各地制造的”，而不仅仅是在中国。</p>
+<h2 id="苏宁拼购：2月份投放1亿瓶消毒液-日均售20万只口罩"><a href="#苏宁拼购：2月份投放1亿瓶消毒液-日均售20万只口罩" class="headerlink" title="苏宁拼购：2月份投放1亿瓶消毒液 日均售20万只口罩"></a>苏宁拼购：2月份投放1亿瓶消毒液 日均售20万只口罩</h2><p><img src="https://i.loli.net/2020/03/04/bawLkCimuDVzTlr.jpg" alt="821c0f4465b220c4a83523a1922e7be6.jpg"><br>网易科技讯 3月4日消息，今日苏宁拼购表示，疫情期间苏宁拼购从用户、商户两头着手，联动苏宁各产业（物流、金融）优势，扶助中小商户疏通物流和资金上的困难，期间同比订单量增长866%，GMV增长2061%。据了解，苏宁拼购于2月13日公布了助农18条，开通助农绿色绿色通道，加快审批速度，派专人手把手教农户开设网店，苏宁物流、天天快递保障物流畅通。累计帮助600多户农户销售了逾千万斤农产品。二月二赶大集，苏宁拼购单天完成180场，帮助成都、桂林等30多个地区的400多个农户共计卖出15万斤四川丑柑、5.7万斤冰糖橙、34万枚猕猴桃。总计直播带货23万单。累计观看人次1.4亿。2月中旬，苏宁拼购与苏宁金融联动，启动“白名单”机制，贷款策略“一厂一议”，确保复工资金需求，保证资金链健康运转，及时为消费者生产医疗卫生用品。整个2月份，苏宁拼购已为214家商户提供贷款，另外还有40多家在授信中。累计贷款金额逾2000万。苏宁金融相关负责人表示：“白名单机制启动后，拼购中小商户最高可申请20万元贷款，流程最快一天走完。”苏宁物流与天天快递为发货难的商户提供对点帮扶，累计帮助600多家商户解决了物流问题。苏宁拼购公布数据称，整个2月份，苏宁拼购向市场投放了1亿瓶医用酒精消毒液、50万副护目镜、日均售出20万只口罩。对此，苏宁拼购相关负责人表示：“苏宁拼购保证防疫用品不涨价、能发货。对于趁机涨价、不能发货的商家，苏宁拼购24小时监测，发现一家处理一家。”</p>
+<h2 id="华为与俄罗斯最大银行合作-为当地企业提供云服务"><a href="#华为与俄罗斯最大银行合作-为当地企业提供云服务" class="headerlink" title="华为与俄罗斯最大银行合作 为当地企业提供云服务"></a>华为与俄罗斯最大银行合作 为当地企业提供云服务</h2><p><img src="https://i.loli.net/2020/03/04/NX1j7mePC3ohFRy.jpg" alt="5cdecd0b83e8944735ef758df079654e.jpeg"><br>网易科技讯 3月4日消息，据国外媒体报道，俄罗斯最大银行Sberbank和中国的华为公司周二表示，他们已结成战略伙伴关系，为俄罗斯企业提供云计算服务。此举将让Sberbank的业务范围扩大到该国的数字经济领域。Sberbank是俄罗斯国有银行，其业务一直在稳步地从传统银行业向网络服务业转变，它投资了俄罗斯互联网巨头Yandex和Mail，其云解决方案SberCloud希望向大型企业、中小企业和初创企业等提供服务。现在该云解决方案的客户将能够获得37项新的云服务，这些服务都将完全集成在一个系统中，在俄罗斯市场这也将是首个这种水平的服务。去年，Sberbank首席执行官杰曼·格雷夫（German Gref）在接受路透社采访时提出了致力数字业务的计划。与全球最大电信设备制造商华为建立合作关系，进一步证明Sberbank在致力于数字业务发展的雄心。华为俄罗斯业务总经理王伟（Wang Wei，译音）表示，华为将持续在俄罗斯运营，与Sberbank的合作能够大大改善俄罗斯的数字业务前景。他说，“这一合作关系，真正代表了俄罗斯云服务市场的一个里程碑。”</p>
+<h2 id="美联储意外降息美股仍大跌，科技五巨头集体下挫"><a href="#美联储意外降息美股仍大跌，科技五巨头集体下挫" class="headerlink" title="美联储意外降息美股仍大跌，科技五巨头集体下挫"></a>美联储意外降息美股仍大跌，科技五巨头集体下挫</h2><p><img src="https://i.loli.net/2020/03/04/hdnItQNZOBvHFqy.jpg" alt="c0923a93d5009b1453c2670967847c59.jpeg"><br>网易科技讯 3月4日消息，据外媒报道，美国时间周二，美联储意外宣布降息0.5个百分点，令美国股市更加担心新冠肺炎疫情对经济的影响。在美联储自2008年金融危机以来首次紧急降息后，美国三大股指收盘均下跌近3%。美国时间周二，道琼斯工业平均指数下跌785.91点，收于25,917.41点，跌幅2.94%；标准普尔500指数下跌86.86点，收于3,003.37点，跌幅2.81%。纳斯达克综合指数下跌268.08点，收于8,684.09点，跌幅为2.99%。在美国股市周二交易中，苹果股价收于289.32美元，下跌3.18%；谷歌母公司Alphabet股价收于1,341.39美元，下跌了3.44%；亚马逊收于1,908.99美元，下跌了2.3%；微软收于164.51美元，下跌了4.79%；Facebook收于185.89美元，下跌了5.37%；奈飞（Netflix）收于368.77美元，下跌了3.22%；特斯拉收于745.51美元，逆市上涨了0.25%。美国芯片龙头股方面，英特尔收于55.97美元，下跌了3.8%；高通（Qualcomm）收于78.56美元，下跌了2.48%；博通收于274.25美元，下跌了3.76%；德州仪器收于113.81美元，下跌了4.34%；美光科技收于51.80美元，下跌了5.11%；英伟达收于265.89美元，下跌了3.81%；AMD收于46.75美元，下跌了1.5%。此次降息凸显了美联储对新冠病毒的担忧，目前这种病毒已经扩散至世界各地。此次降息时间比美联储预定的政策会议提前了两周，而交易员已完全消化了这次政策会议降息50个基点的预期。在美国股市周二交易中，美国三大股市最初均下跌1%左右，但随后进一步下滑，因为交易员担心向金融市场注入更多资金是否能解决核心问题——随着员工和消费者呆在家里，商业活动将大幅减少。投行Kenny’s Commentary LLC和Strategic Board Solutions LLC的创始人彼得·肯尼（Peter Kenny）指出：“美联储此次降息凸显了全球经济面临问题的严重性。”他说：“正常情况下，市场会欢迎降息，他们一直希望美联储采取这一举动。现在我们如愿以偿，但问题是，下一步的措施是什么?”随着紧张不安的投资者将资金撤出股市，美国10年期国债收益率首次跌破1%。美国时间周二，标准普尔500金融类股指数重挫3.7%，反映出银行在低利率环境下难以盈利。上周五，美国股市出现了10多年来最大的单周跌幅，原因是中国境外新冠肺炎确诊病例不断增加，引发了人们对全球经济衰退的担忧。周二早些时候，七国集团财长和央行行长承诺采取适当行动支持各自国家的经济。芝加哥市场研究公司Bianco创始人兼总裁吉姆·比安科（Jim Bianco）在谈到美联储降息时表示：“市场确实担心情况会变得更糟，这时候没有必要坐等这些担忧成真。”与最近交易日一样，美国股市周二的成交量很大，达到147亿股，而过去20天的日均成交量为98亿股。</p>
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls"
+                data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+            <ul id="audio-list" style="display:none">
+                
+                
+                <li title='0' data-url='/statics/WesternBae.mp3'></li>
+                
+                    
+            </ul>
+            
+            
+            
+        </div>
+        <div class="sidebar">
+            <div class="box animated fadeInRight">
+                <div class="subbox">
+                    <img src="https://res.cloudinary.com/tridiamond/image/upload/v1573019751/TriDiamond_logo_ui_xeublz.jpg" height=300 width=300></img>
+                    <p>WhiteNX</p>
+                    <span>No pain no gain</span>
+                    <dl>
+                        <dd><a href="https://github.com/TriDiamond" target="_blank"><span
+                                    class=" iconfont icon-github"></span></a></dd>
+                        <dd><a href="https://twitter.com/TriDiamond6" target="_blank"><span
+                                    class=" iconfont icon-twitter"></span></a></dd>
+                        <dd><a href="https://stackoverflow.com/users/7602324/tridiamond?tab=profile" target="_blank"><span
+                                    class=" iconfont icon-stack-overflow"></span></a></dd>
+                    </dl>
+                </div>
+                <ul>
+                    <li><a href="/">9 <p>文章</p></a></li>
+                    <li><a href="/categories">0 <p>分类</p></a></li>
+                    <li><a href="/tags">4 <p>标签</p></a></li>
+                </ul>
+            </div>
+            
+            
+            
+            <div class="box sticky animated fadeInRight faster">
+                <div id="toc" class="subbox">
+                    <h4>目录</h4>
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#苹果曾想在印度生产iPhone-11，最终没成功"><span class="toc-number">1.</span> <span class="toc-text">苹果曾想在印度生产iPhone 11，最终没成功</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#苏宁拼购：2月份投放1亿瓶消毒液-日均售20万只口罩"><span class="toc-number">2.</span> <span class="toc-text">苏宁拼购：2月份投放1亿瓶消毒液 日均售20万只口罩</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#华为与俄罗斯最大银行合作-为当地企业提供云服务"><span class="toc-number">3.</span> <span class="toc-text">华为与俄罗斯最大银行合作 为当地企业提供云服务</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#美联储意外降息美股仍大跌，科技五巨头集体下挫"><span class="toc-number">4.</span> <span class="toc-text">美联储意外降息美股仍大跌，科技五巨头集体下挫</span></a></li></ol>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+
+    </div>
+</div>
+    <div id="back-to-top" class="animated fadeIn faster">
+        <div class="flow"></div>
+        <span class="percentage animated fadeIn faster">0%</span>
+        <span class="iconfont icon-top02 animated fadeIn faster"></span>
+    </div>
+</body>
+<footer>
+    <p class="copyright" id="copyright">
+        &copy; 2020
+        <span class="gradient-text">
+            WhiteNX
+        </span>.
+        Powered by <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a>
+        Theme
+        <span class="gradient-text">
+            <a href="https://github.com/TriDiamond/hexo-theme-obsidian" title="Obsidian" target="_blank" rel="noopener">Obsidian</a>
+        </span>
+        <small><a href="https://github.com/TriDiamond/hexo-theme-obsidian/blob/master/CHANGELOG.md" title="v1.4.3" target="_blank" rel="noopener">v1.4.3</a></small>
+    </p>
 </footer>
 
-    </main>
-    <div class="mask" id="mask"></div>
-<a href="javascript:;" id="gotop" class="waves-effect waves-circle waves-light"><span class="icon icon-lg icon-chevron-up"></span></a>
-
-
-
-<div class="global-share" id="globalShare">
-    <ul class="reset share-icons">
-      <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=https://whitenx.top/2020/03/04/%E7%A7%91%E6%8A%80%E5%91%A8%E6%8A%A5-%E7%AC%AC%E5%9B%9B%E6%9C%9F/&title=《科技周报[第四期]》 — WhiteNX's Blog&pic=https://i.loli.net/2020/02/15/AoC8vztE5YXI7xK.jpg" data-title="微博">
-          <i class="icon icon-weibo"></i>
-        </a>
-      </li>
-      <li>
-        <a class="weixin share-sns wxFab" href="javascript:;" data-title="微信">
-          <i class="icon icon-weixin"></i>
-        </a>
-      </li>
-      <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://whitenx.top/2020/03/04/%E7%A7%91%E6%8A%80%E5%91%A8%E6%8A%A5-%E7%AC%AC%E5%9B%9B%E6%9C%9F/&title=《科技周报[第四期]》 — WhiteNX's Blog&source=WhiteNX的个人站" data-title=" QQ">
-          <i class="icon icon-qq"></i>
-        </a>
-      </li>
-      <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://whitenx.top/2020/03/04/%E7%A7%91%E6%8A%80%E5%91%A8%E6%8A%A5-%E7%AC%AC%E5%9B%9B%E6%9C%9F/" data-title=" Facebook">
-          <i class="icon icon-facebook"></i>
-        </a>
-      </li>
-      <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=《科技周报[第四期]》 — WhiteNX's Blog&url=https://whitenx.top/2020/03/04/%E7%A7%91%E6%8A%80%E5%91%A8%E6%8A%A5-%E7%AC%AC%E5%9B%9B%E6%9C%9F/&via=https://whitenx.top" data-title=" Twitter">
-          <i class="icon icon-twitter"></i>
-        </a>
-      </li>
-      <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=https://whitenx.top/2020/03/04/%E7%A7%91%E6%8A%80%E5%91%A8%E6%8A%A5-%E7%AC%AC%E5%9B%9B%E6%9C%9F/" data-title=" Google+">
-          <i class="icon icon-google-plus"></i>
-        </a>
-      </li>
-    </ul>
- </div>
-
-
-<div class="page-modal wx-share" id="wxShare">
-    <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <img src="//api.qrserver.com/v1/create-qr-code/?data=https://whitenx.top/2020/03/04/%E7%A7%91%E6%8A%80%E5%91%A8%E6%8A%A5-%E7%AC%AC%E5%9B%9B%E6%9C%9F/" alt="微信分享二维码">
-</div>
-
-
-
-
-    <script src="//cdn.bootcss.com/node-waves/0.7.4/waves.min.js"></script>
-<script>
-var BLOG = { ROOT: '/', SHARE: true, REWARD: true };
-
-
+<script type="text/javascript" src="https://cdn.bootcss.com/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
-
-<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/main.min.js"></script>
-
-
-<div class="search-panel" id="search-panel">
-    <ul class="search-result" id="search-result"></ul>
-</div>
-<template id="search-tpl">
-<li class="item">
-    <a href="{path}" class="waves-block waves-effect">
-        <div class="title ellipsis" title="{title}">{title}</div>
-        <div class="flex-row flex-middle">
-            <div class="tags ellipsis">
-                {tags}
-            </div>
-            <time class="flex-col time">{date}</time>
-        </div>
-    </a>
-</li>
-</template>
-
-<script src="//unpkg.com/hexo-theme-material-indigo@latest/js/search.min.js" async></script>
-
-
-
-
-
-
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-
-
 <script>
-(function() {
-    var OriginTitile = document.title, titleTime;
-    document.addEventListener('visibilitychange', function() {
-        if (document.hidden) {
-            document.title = '你 看 不 见 我';
-            clearTimeout(titleTime);
-        } else {
-            document.title = '啊，被看见惹。';
-            titleTime = setTimeout(function() {
-                document.title = OriginTitile;
-            },2000);
+  MathJax.Hub.Config({
+    "HTML-CSS": {
+      preferredFont: "TeX",
+      availableFonts: ["STIX", "TeX"],
+      linebreaks: {
+        automatic: true
+      },
+      EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+      inlineMath: [
+        ["$", "$"],
+        ["\\(", "\\)"]
+      ],
+      processEscapes: true,
+      ignoreClass: "tex2jax_ignore|dno",
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+      noUndefined: {
+        attributes: {
+          mathcolor: "red",
+          mathbackground: "#FFEEEE",
+          mathsize: "90%"
         }
+      },
+      Macros: {
+        href: "{}"
+      }
+    },
+    messageStyle: "none"
+  });
+</script>
+<script>
+  function initialMathJax() {
+    MathJax.Hub.Queue(function () {
+      var all = MathJax.Hub.getAllJax(),
+        i;
+      // console.log(all);
+      for (i = 0; i < all.length; i += 1) {
+        console.log(all[i].SourceElement().parentNode)
+        all[i].SourceElement().parentNode.className += ' has-jax';
+      }
     });
-})();
+  }
+
+  function reprocessMathJax() {
+    if (typeof MathJax !== 'undefined') {
+      MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+    }
+  }
 </script>
 
 
 
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/miku.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"react":{"opacity":0.7},"log":false});</script></body>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/obsidian.js"></script>
+<script src="/js/jquery.truncate.js"></script>
+<script src="/js/search.js"></script>
+
+
+<script src="//cdn.bootcss.com/typed.js/2.0.10/typed.min.js"></script>
+
+
+<script src="//cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+
+
+<script src="https://cdn.bootcss.com/codemirror/5.48.4/codemirror.min.js"></script>
+
+    
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/javascript/javascript.min.js"></script>
+
+
+    
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/css/css.min.js"></script>
+
+
+    
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/xml/xml.min.js"></script>
+
+
+    
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/htmlmixed/htmlmixed.min.js"></script>
+
+
+    
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/clike/clike.min.js"></script>
+
+
+    
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/php/php.min.js"></script>
+
+
+    
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/shell/shell.min.js"></script>
+
+
+    
+<script src="//cdn.bootcss.com/codemirror/5.48.4/mode/python/python.min.js"></script>
+
+
+
+
+    
+<script src="/js/busuanzi.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            if ($('span[id^="busuanzi_"]').length) {
+                initialBusuanzi();
+            }
+        });
+    </script>
+
+
+
+<link rel="stylesheet" href="//cdn.bootcss.com/photoswipe/4.1.3/photoswipe.min.css">
+<link rel="stylesheet" href="//cdn.bootcss.com/photoswipe/4.1.3/default-skin/default-skin.min.css">
+
+
+<script src="//cdn.bootcss.com/photoswipe/4.1.3/photoswipe.min.js"></script>
+<script src="//cdn.bootcss.com/photoswipe/4.1.3/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<script>
+    function initialTyped () {
+        var typedTextEl = $('.typed-text');
+        if (typedTextEl && typedTextEl.length > 0) {
+            var typed = new Typed('.typed-text', {
+                strings: ["No pain no gain", "一分耕耘，一分收获"],
+                typeSpeed: 90,
+                loop: true,
+                loopCount: Infinity,
+                backSpeed: 20,
+            });
+        }
+    }
+
+    if ($('.article-header') && $('.article-header').length) {
+        $(document).ready(function () {
+            initialTyped();
+        });
+    }
+</script>
+
+
+
+
 </html>
